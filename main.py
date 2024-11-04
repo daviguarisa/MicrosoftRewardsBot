@@ -9,6 +9,7 @@ pg.PAUSE = 1 # -> tempo entre todos os comandos
 pg.press('Win')
 pg.write('edge')
 pg.press('enter')
+time.sleep(1) 
 pg.hotkey("alt", "space")
 pg.press("x")
 time.sleep(1) 
